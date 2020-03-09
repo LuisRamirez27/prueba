@@ -15,8 +15,7 @@ public class Poker {
      float[] Prob_comb=new float[cant_combinacion];
      int[] frec_observada=new int [mano];
      int[] mustra=new int[tamano_muestra];
-    public static void main(String[] args) {
-    }
+     
     public void Pedir_datos(){
         System.out.println("Tamano de la muestra a tomar");
         tamano_muestra=teclado.nextInt();
